@@ -1,0 +1,133 @@
+*{
+  font-family: montserrat;
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+section {
+  padding-bottom: 100px;
+}
+
+.navbar {
+  background-color: white;
+  width: 100%;
+  height: 60px;
+}
+
+  .logo{
+    height: 44px;
+  }
+
+.navbar a i {
+  padding: 10px;
+}
+
+.navbar-item{
+  padding-left: 20px;
+}
+
+.nav-link img{
+  width: 44px;
+  height: 44px;
+  display: row;
+  justify-content: center;
+  padding: 10px;
+}
+
+
+.navbar-brand{
+  padding-right: 50px;
+  margin: 10px;
+}
+
+.berada-section{
+  padding-left: 10%;
+}
+.card{
+  margin: 0 auto;
+  margin-top: 50PX;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 800px;
+  min-height: 200px;
+}
+
+.card-header{
+  display: flex;
+  flex-wrap: column;
+  padding-right: 10px;
+  height: 60px;
+  font-size: 12px;
+}
+
+.card-title{
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.card-title h7{
+  font-weight: 900;
+}
+
+.card-title h5{
+  font-weight: 900;
+}
+
+.card-logo img{
+  width: 50px;
+  height: 50px;
+  display: row;
+  justify-content: center;
+  padding: 5px;
+}
+
+.card-comment{
+  display: flex;
+  flex-wrap: column;
+  padding-right: 10px;
+  height: 60px;
+  font-size: 12px;
+}
+
+
+.card-text{
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+
+.slice{
+  max-height: 250px;
+}
+
+.slice-text {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.pg-body{
+  margin-top: 50PX;
+  width:  auto;
+  justify-content: center;
+}
+
+
+.active{
+  background-color: darkblue;
+}
+
+.footer{
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  text-align: center; 
+  font-weight: bold;
+  position: fixed;
+}
+
+.pagination ul li{
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
